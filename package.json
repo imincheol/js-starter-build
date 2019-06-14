@@ -1,0 +1,26 @@
+{
+  "name": "js-starter-build",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --open --hot --inline",
+    "start": "npm run build & npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imincheol/js-starter-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imincheol/js-starter-build/issues"
+  },
+  "homepage": "https://github.com/imincheol/js-starter-build#readme",
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
+}

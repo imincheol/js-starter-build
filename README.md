@@ -1,6 +1,6 @@
 # js-starter-build
 
-This is for js developer when begin programming 
+ES5, ES6 프로젝트를 위한 bolier plate 프로젝트 
 
 ## Fast start 
 
